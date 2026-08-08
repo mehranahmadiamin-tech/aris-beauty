@@ -1,0 +1,398 @@
+مهران:
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>فروشگاه | Aris Beauty</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="container header-inner">
+
+        <a href="index.html" class="logo">
+            <span>ARIS</span>
+            <small>BEAUTY</small>
+        </a>
+
+        <nav class="nav">
+
+            <a href="index.html">
+                خانه
+            </a>
+
+            <a href="shop.html" class="active">
+                فروشگاه
+            </a>
+
+            <a href="about.html">
+                درباره ما
+            </a>
+
+            <a href="contact.html">
+                تماس با ما
+            </a>
+
+        </nav>
+
+        <div class="header-actions">
+
+            <button
+                class="icon-btn search-toggle"
+                type="button">
+                🔍
+            </button>
+
+            <button
+                class="icon-btn cart-icon"
+                type="button"
+                onclick="location.href='cart.html'">
+
+                🛒
+
+                <span
+                    id="cartCount"
+                    class="cart-count">
+                    0
+                </span>
+
+            </button>
+
+            <button
+                class="icon-btn menu-toggle"
+                type="button">
+                ☰
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<div class="search-box" id="searchBox">
+
+    <div class="container">
+
+        <input
+            type="text"
+            id="globalSearch"
+            placeholder="جستجوی محصول...">
+
+    </div>
+
+</div>
+
+
+<main>
+
+    <section class="page-hero">
+
+        <div class="container">
+
+            <span>
+                ARIS STORE
+            </span>
+
+            <h1>
+                فروشگاه آریس
+            </h1>
+
+            <p>
+                محصول مورد علاقه‌ات را پیدا کن.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="shop-toolbar">
+
+                <input
+                    type="text"
+                    id="productSearch"
+                    class="shop-search"
+                    placeholder="🔍 جستجوی محصول...">
+
+
+                <div class="filters">
+
+                    <button
+                        class="filter-btn active"
+                        data-category="همه">
+
+                        همه
+
+                    </button>
+
+                    <button
+                        class="filter-btn"
+                        data-category="آرایش صورت">
+
+                        آرایش صورت
+
+                    </button>
+
+                    <button
+                        class="filter-btn"
+                        data-category="آرایش لب">
+
+                        آرایش لب
+
+                    </button>
+
+                    <button
+                        class="filter-btn"
+                        data-category="مراقبت پوست">
+
+                        مراقبت پوست
+
+                    </button>
+
+                    <button
+                        class="filter-btn"
+                        data-category="عطر و ادکلن">
+
+                        عطر و ادکلن
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="products-grid">
+
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <span class="product-badge">
+                            جدید
+                        </span>
+
+                        <div class="product-placeholder">
+                            💄
+                        </div>
+
+                        <button
+                            class="favorite-btn"
+                            data-id="lipstick">
+                            ♡
+                        </button>
+
+                    </div>
+
+                    <div class="product-info">
+
+<span class="product-category">
+                            آرایش لب
+                        </span>
+
+                        <h3>
+                            رژ لب مات آریس
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                ۴۹۹,۰۰۰ تومان
+                            </strong>
+
+                            <a
+                                href="product.html?product=lipstick"
+                                class="product-link">
+                                مشاهده
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <div class="product-placeholder">
+                            🧴
+                        </div>
+
+                        <button
+                            class="favorite-btn"
+                            data-id="cream">
+                            ♡
+                        </button>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">
+                            مراقبت پوست
+                        </span>
+
+                        <h3>
+                            کرم مرطوب‌کننده
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                ۶۹۹,۰۰۰ تومان
+                            </strong>
+
+                            <a
+                                href="product.html?product=cream"
+                                class="product-link">
+                                مشاهده
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <span class="product-badge">
+                            ویژه
+                        </span>
+
+                        <div class="product-placeholder">
+                            🌸
+                        </div>
+
+                        <button
+                            class="favorite-btn"
+                            data-id="perfume">
+                            ♡
+                        </button>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">
+                            عطر و ادکلن
+                        </span>
+
+                        <h3>
+                            عطر آریس لاکچری
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                ۱,۲۹۹,۰۰۰ تومان
+                            </strong>
+
+                            <a
+                                href="product.html?product=perfume"
+                                class="product-link">
+                                مشاهده
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <div class="product-placeholder">
+                            ✨
+                        </div>
+
+                        <button
+                            class="favorite-btn"
+                            data-id="powder">
+                            ♡
+                        </button>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">
+                            آرایش صورت
+                        </span>
+
+                        <h3>
+                            پنکیک آریس
+                        </h3>
+
+                        <div class="product-bottom">
+
+<strong>
+                                ۵۹۹,۰۰۰ تومان
+                            </strong>
+
+                            <a
+                                href="product.html?product=powder"
+                                class="product-link">
+                                مشاهده
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="footer-bottom">
+        © 2026 Aris Beauty
+    </div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
